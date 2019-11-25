@@ -1,0 +1,70 @@
+/* Changement de dimensions de la police en version mobile */
+@media only screen and (max-width: 400px) {
+    h2 {
+        font-size: 2em;
+    }
+    h5 {
+        font-size: 1.5em;
+    }
+}
+
+/* Ajout opacité de la navbar et passage en gras du nom des parties */
+.colorNav {
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+}
+
+/* Ajout d'un padding pour une meilleure jonction entre les différentes parties */
+.container {
+    padding: 50px 1px;
+}
+
+/* Ajout des deux teintes de bleu de la partie Profil */
+.blueT{
+    background-color: #154360;
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: -70px;
+}
+.blueC{
+    background-color:#1a5276;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Ajout des deux teintes de bleu de la partie Technologies */
+.blueCT{
+    background-color:#7fb3d5;
+    width: 100% !important;
+    height: 100% !important;
+}
+.blueCC{
+    background-color:#a9cce3;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Ajout des deux teintes de gris de la partie Etudes */
+.greyT{
+    background-color:#abb2b9;
+    width: 100% !important;
+    height: 100% !important;
+}
+.greyC{
+    background-color:#d5d8dc;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Ajout des deux teintes de vert de la partie Experiences */
+.greenC{
+    background-color:#7ac18d;
+    width: 100% !important;
+    height: 100% !important;
+}
+.greenT{
+    background-color:#7ca888;
+    width: 100% !important;
+    height: 100% !important;
+}
+
